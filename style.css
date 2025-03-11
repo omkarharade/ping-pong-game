@@ -1,0 +1,26 @@
+#ping-pong-table{
+    position: relative;
+    width: 700px;
+    height: 500px;
+    border: solid 2px;
+    background-color: black;
+}
+
+#paddle{
+    position: absolute;
+    top:0;
+    left: 5px;
+    width: 15px;
+    height: 60px;
+    background-color: rgb(156, 55, 252);
+}
+
+#ball{
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: rgb(247, 34, 34);
+}
